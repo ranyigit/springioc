@@ -18,7 +18,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 //@Configuration
 @ComponentScan({"com.tv189"}) //@ComponentScan({"com.tv189","config"}) 不加扫描包就需要加@Import注解
-@Import(JdbcConfig.class)
+@Import({JdbcConfig.class})
 @PropertySource("classpath:JdbcConfig.properties")
 public class SpringConfiguration {
 

@@ -26,7 +26,7 @@ import java.util.List;
  * 当我们使用 spring 5.* 版本的时候，要求junit的jar版本必须是4.12及以上
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = SpringConfiguration.class)
+@ContextConfiguration(classes = SpringConfiguration.class) //@ContextConfiguration(location = "classpath:bean.xml")
 public class AccountServiceTest {
 
     @Autowired

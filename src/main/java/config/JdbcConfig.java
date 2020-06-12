@@ -1,4 +1,4 @@
-package config;
+package com.tv189.config;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.apache.commons.dbutils.QueryRunner;
